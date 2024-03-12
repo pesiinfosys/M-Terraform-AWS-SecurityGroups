@@ -95,7 +95,7 @@ variable "autoscaling_cpu_target_value" {
   default = 70.0
 }
 
-variable "web_alb_listener_arn" {
+variable "alb_listener_arn" {
 
 }
 

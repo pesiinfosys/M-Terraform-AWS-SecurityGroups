@@ -107,7 +107,7 @@ resource "aws_autoscaling_policy" "main" {
 ################################
 
 resource "aws_lb_listener_rule" "main" {
-  listener_arn = var.web_alb_listener_arn
+  listener_arn = var.alb_listener_arn
   priority     = var.listner_rule_priority
 
   action {
